@@ -10,14 +10,11 @@ public class Employer extends AbstractEntity {
     @Size(min = 3, max = 150)
     private String location;
     public Employer() {
-
     }
 
 //    add public methods
 
-    public String getLocation() {
-        return location;
-    }
+    public String getLocation() {return this.location;}
 
     public void setLocation(String location) {
         this.location = location;
